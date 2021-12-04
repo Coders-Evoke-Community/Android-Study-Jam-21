@@ -31,8 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         rupeeToDollarImageView.setOnClickListener {
             // Get Rupee value and pass it to the function
-            val rupee = rupeesEditText.text.toString().toFloat()
-//            val dollarValue = convertRupeeToDollar(rupee).roundToInt()
+            val rupee = rupeesEditText.text.toString().toDouble()
             val dollarValue = convertRupeeToDollar(rupee).roundTo(2)
 
             // Set the value
@@ -44,8 +43,8 @@ class MainActivity : AppCompatActivity() {
 
         dollarToRupeeImageView.setOnClickListener {
             // Get Dollar value and pass it to the function
-            val dollar = dollarEditText.text.toString().toFloat()
-            val convertedRupeeValue = convertDollarToRupee(dollar)
+            val dollar = dollarEditText.text.toString().toDouble()
+            val convertedRupeeValue = convertDollarToRupee(dollar).roundTo(2)
 
             // Set the value
             rupeesEditText.text = convertedRupeeValue.toString().toEditable()
@@ -55,9 +54,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun convertDollarToRupee(dollarValue: Float) = dollarValue * 75.24
+    private fun convertDollarToRupee(dollarValue: Double) = dollarValue * 75.24
 
-    private fun convertRupeeToDollar(RupeeValue: Float) = RupeeValue * 0.013
+    private fun convertRupeeToDollar(RupeeValue: Double) = RupeeValue / 75.24
 
     private fun initView() {
         // ET

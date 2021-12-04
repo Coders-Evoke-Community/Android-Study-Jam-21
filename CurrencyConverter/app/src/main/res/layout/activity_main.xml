@@ -98,7 +98,7 @@
                 android:id="@+id/usd_et"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Amount in INR"
+                android:hint="Enter Amount in USD"
                 android:inputType="numberDecimal" />
 
         </LinearLayout>
