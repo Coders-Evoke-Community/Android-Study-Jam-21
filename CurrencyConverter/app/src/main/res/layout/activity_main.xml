@@ -25,8 +25,9 @@
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/inr_coin"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:lottie_rawRes="@raw/inr_coin_spinning" />
@@ -86,8 +87,9 @@
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/usd_coin"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:lottie_rawRes="@raw/usd_coin_spinning" />

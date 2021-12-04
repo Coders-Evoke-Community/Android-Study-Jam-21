@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/CurrencyConverter/app/src/main/res/layout/activity_main.xml" value="0.14108409321175278" />
+        <entry key="..\:/Google Android Study Jam 2021/Android-Study-Jam-21/CurrencyConverter/app/src/main/res/layout/activity_main.xml" value="0.17346014492753623" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
